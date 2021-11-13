@@ -36,6 +36,7 @@ class TelaInicial():
                 sg.popup('Aviso! não aperte no botão novamente, isso pode travar o programa')
                 rpc.update(state=estatos, details=detalhes, large_image=imagemGrande, large_text=textoimagemGrande, start=time.time())
                 print("RPC Iniciado")
+                sg.popup('programa iniciado')
                 
 tela = TelaInicial()
 tela.Iniciar()
