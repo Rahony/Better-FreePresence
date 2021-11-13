@@ -11,7 +11,7 @@ class TelaInicial():
         layout = [[sg.Text('Discord RPC Editor',font='Ebrima 14',text_color='RoyalBlue1'),sg.Text('v: 0.0.1        by Rahony',font='Couries 8',text_color='RoyalBlue3')],
                 [sg.Text('Digite o ID do client: ',size=(25,0)), sg.InputText(size=(20,1),key='clientid')],
                 [sg.Text('Digite o status do RPC: ',size=(25,0)), sg.InputText(size=(20,1),key='estatos')],
-                [sg.Text('Dgite os detalhes do RPC: ',size=(25,0)), sg.InputText(size=(20,1),key='detalhes')],
+                [sg.Text('Digite os detalhes do RPC: ',size=(25,0)), sg.InputText(size=(20,1),key='detalhes')],
                 [sg.Text('Digite o nome da imagem grande: ',size=(25,0)), sg.InputText(size=(20,1),key='imagemGrande')],
                 [sg.Text('Digite o texto da imagem grande: ',size=(25,0)), sg.InputText(size=(20,1),key='textoimagemGrande')],
                 [sg.Button('Iniciar',disabled=False), sg.Button('Cancelar')]
