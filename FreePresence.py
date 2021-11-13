@@ -8,7 +8,7 @@ import PySimpleGUI as sg
 class TelaInicial():
     def __init__(self):
         sg.change_look_and_feel('DarkGrey5')
-        layout = [[sg.Text('Discord RPC Editor',font='Ebrima 14',text_color='RoyalBlue1'),sg.Text('v: 0.0.1        by Rahony',font='Couries 8',text_color='RoyalBlue3')],
+        layout = [[sg.Text('Discord RPC Editor',font='Ebrima 14',text_color='RoyalBlue1'),sg.Text('v: 0.0.2        by Rahony',font='Couries 8',text_color='RoyalBlue3')],
                 [sg.Text('Digite o ID do client: ',size=(25,0)), sg.InputText(size=(20,1),key='clientid')],
                 [sg.Text('Digite o status do RPC: ',size=(25,0)), sg.InputText(size=(20,1),key='estatos')],
                 [sg.Text('Digite os detalhes do RPC: ',size=(25,0)), sg.InputText(size=(20,1),key='detalhes')],
